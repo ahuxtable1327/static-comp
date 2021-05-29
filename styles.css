@@ -1,0 +1,21 @@
+/*
+font-family: 'Montserrat', sans-serif;
+background color: #3a6351;
+header: #e48257
+cards/header text: #f2edd7
+card outline/text: #393232
+ */
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+ nav {
+   background-color: #e48257;
+   color: #f2edd7;
+ }
+
+ body{
+   background-color: #3a6351;
+   margin: 0;
+ }
+
+ /* CARDS */
