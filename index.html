@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html>
   <head>
+    <html lang='en'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap' rel='stylesheet'>
     <link rel='stylesheet' type='text/css' href='./styles.css'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Static Comp</title>
+    <title>Sippin' & Listenin</title>
   </head>
   <body>
     <nav>
@@ -15,14 +18,17 @@
       </section>
       <section class='login'>
         <p class='link'>username</p>
-        <h1>cocktails</h1>
+        <h1>Sippin' & Listenin</h1>
       </section>
     </nav>
     <main>
       <section class='cards'>
         <div class='card-img'>
           <img class='image' src='./assets/oldFashioned.jpg' alt='old fashioned'>
-          <img class='overlay' src='./assets/next.png' alt='view more'>
+          <div class='overlay'>
+            <p class='arrow'>>></p>
+            <p class='details'>details</p>
+          </div>
         </div>
         <p class='drink'>Old Fashioned</p>
         <p class='ing-name'>Ingredients</p>
@@ -37,7 +43,10 @@
       <section class='cards'>
         <div class='card-img'>
           <img class='image' src='./assets/moscowMule.jpg' alt='moscow mule'>
-          <img class='overlay' src='./assets/next.png' alt='view more'>
+          <div class='overlay'>
+            <p class='arrow'>>></p>
+            <p class='details'>details</p>
+          </div>
         </div>
         <p class='drink'>Moscow Mule</p>
         <p class='ing-name'>Ingredients</p>
@@ -52,7 +61,10 @@
       <section class='cards'>
         <div class='card-img'>
           <img class='image' src='./assets/margarita.jpg' alt='margarita'>
-          <img class='overlay' src='./assets/next.png' alt='view more'>
+          <div class='overlay'>
+            <p class='arrow'>>></p>
+            <p class='details'>details</p>
+          </div>
         </div>
         <p class='drink'>Margarita</p>
         <p class='ing-name'>Ingredients</p>
@@ -62,12 +74,15 @@
           <li>2 oz Tequila</li>
           <li>Frozen or on the rocks</li>
         </ul>
-        <iframe src="https://open.spotify.com/embed/track/6dnco8haegnJYtylV26cBq" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe src='https://open.spotify.com/embed/track/6dnco8haegnJYtylV26cBq' allowtransparency='true' allow='encrypted-media'></iframe>
       </section>
       <section class='cards'>
         <div class='card-img'>
           <img class='image' src='./assets/mojito.jpg' alt='mojito'>
-          <img class='overlay' src='./assets/next.png' alt='view more'>
+          <div class='overlay'>
+            <p class='arrow'>>></p>
+            <p class='details'>details</p>
+          </div>
         </div>
         <p class='drink'>Mojito</p>
         <p class='ing-name'>Ingredients</p>
@@ -78,56 +93,43 @@
           <li>6 leaves of Mint</li>
           <li>Soda Water</li>
         </ul>
-        <iframe src="https://open.spotify.com/embed/track/254bXAqt3zP6P50BdQvEsq" allowtransparency="true" allow="encrypted-media"></iframe>
-      </section>
-      <!-- <section class='cards'>
-        <div class='card-img'>
-          <img class='image' src='' alt='drink name'>
-        </div>
-        <p>name</p>
-        <p>ingredients</p>
-        <p>spotify-link</p>
+        <iframe src='https://open.spotify.com/embed/track/254bXAqt3zP6P50BdQvEsq' allowtransparency='true' allow='encrypted-media'></iframe>
       </section>
       <section class='cards'>
         <div class='card-img'>
-          <img class='image' src='' alt='drink name'>
+          <img class='image' src='./assets/cosmo.jpg' alt='cosmopolitan'>
+          <div class='overlay'>
+            <p class='arrow'>>></p>
+            <p class='details'>details</p>
+          </div>
         </div>
-        <p>name</p>
-        <p>ingredients</p>
-        <p>spotify-link</p>
+        <p class='drink'>Cosmopolitan</p>
+        <p class='ing-name'>Ingredients</p>
+        <ul class='ing'>
+          <li>1/2 oz Vodka Citron</li>
+          <li>1 oz Cranberry juice</li>
+          <li>1/2 oz Cointreau</li>
+          <li>1/2 oz Fresh lime juice</li>
+        </ul>
+        <iframe src="https://open.spotify.com/embed/track/5E3P9e1hvjyIOlFyqNB5eD" allowtransparency="true" allow='encrypted-media'></iframe>
       </section>
       <section class='cards'>
         <div class='card-img'>
-          <img class='image' src='' alt='drink name'>
+          <img class='image' src='./assets/pinaColada.jpg' alt='pina colada'>
+          <div class='overlay'>
+            <p class='arrow'>>></p>
+            <p class='details'>details</p>
+          </div>
         </div>
-        <p>name</p>
-        <p>ingredients</p>
-        <p>spotify-link</p>
+        <p class='drink'>Pina Colada</p>
+        <p class='ing-name'>Ingredients</p>
+        <ul class='ing'>
+          <li>1 oz Coconut cream</li>
+          <li>1 oz White rum</li>
+          <li>3 oz Pineapple juice</li>
+        </ul>
+        <iframe src='https://open.spotify.com/embed/track/0bRXwKfigvpKZUurwqAlEh' allowtransparency='true' allow='encrypted-media'></iframe>
       </section>
-      <section class='cards'>
-        <div class='card-img'>
-          <img class='image' src='' alt='drink name'>
-        </div>
-        <p>name</p>
-        <p>ingredients</p>
-        <p>spotify-link</p>
-      </section>
-      <section class='cards'>
-        <div class='card-img'>
-          <img class='image' src='' alt='drink name'>
-        </div>
-        <p>name</p>
-        <p>ingredients</p>
-        <p>spotify-link</p>
-      </section>
-      <section class='cards'>
-        <div class='card-img'>
-          <img class='image' src='' alt='drink name'>
-        </div>
-        <p>name</p>
-        <p>ingredients</p>
-        <p>spotify-link</p>
-      </section> --> -->
     </main>
   </body>
 </html>

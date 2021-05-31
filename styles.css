@@ -1,14 +1,16 @@
 /*
 font-family: 'Montserrat', sans-serif;
-background color: #aaaaaaff;
-header: #1b1b1eff
-cards: #dfe0e2ff
-header text: #dfe0e2ff
-card outline/text: #f5b841ff
+background color: #ecf8f8ff;
+header: #5c7457ff
+cards: #fb9f89ff
+header text: #fcfcfcff
+card outline/text: #1b1b1eff
  */
 *{
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  padding: 0;
+
 }
 
 body{
@@ -50,6 +52,10 @@ nav {
   box-shadow: 10px 5px 5px #5c7457ff;
 }
 
+/* .cards:hover{
+  opacity: 50%;
+} */
+
 .card-img {
   position: relative;
   width: 100%;
@@ -67,13 +73,41 @@ nav {
 }
 
 .overlay {
+  background-color: #ecf8f8ff;
+  color: #1b1b1eff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: absolute;
-   bottom:0;
-   left: 1vw;
-   width: 100%;
-   opacity:80;
-   height: 30px;
-   width: 30px
+  bottom:0.5rem;
+  right: 1rem;
+  width: 100%;
+  opacity:80;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 0.3rem;
+  border: 0.15rem solid #fb9f89ff;
+}
+
+.arrow {
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.details {
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.overlay:hover,
+.overlay:active{
+  background-color: #5c7457ff;
+}
+
+.cards:hover{
+  transform: scale(1.1);
 }
 
 iframe {
