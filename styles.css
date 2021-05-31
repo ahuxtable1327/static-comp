@@ -1,5 +1,6 @@
 /*
-font-family: 'Montserrat', sans-serif;
+body font-family: 'Montserrat', sans-serif;
+header font-family: 'Pattaya', sans-serif;
 background color: #ecf8f8ff;
 header: #5c7457ff
 cards: #fb9f89ff
@@ -27,6 +28,12 @@ nav {
 
 .link {
   color: #fcfcfcff;
+}
+
+h1 {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 2rem;
+  width: 35vw;
 }
 
 
