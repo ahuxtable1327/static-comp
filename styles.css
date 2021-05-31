@@ -31,12 +31,17 @@ nav {
  /* CARDS */
  main {
    display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(8, 1.5fr);
+   padding: 3rem;
+   grid-gap: 2rem;
  }
 
 .cards {
   background-color: #fb9f89ff;
-  height: 50vh;
-  width: 32vw;
+  max-width: 70vw;
+  height: auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -72,9 +77,10 @@ nav {
 }
 
 iframe {
+  align-self: center;
+  max-width: 65vw;
   height: 10vh;
-  width: 30vw;
-  margin-left: 1vw;
+  width: 100%;
   margin-bottom: 1vh;
 }
 
@@ -100,3 +106,6 @@ ul {
   font-weight: bolder;
   text-decoration: underline;
 }
+
+
+/*TABLET SIZE*/
