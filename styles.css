@@ -29,6 +29,9 @@ nav {
 
 
  /* CARDS */
+ main {
+   display: grid;
+ }
 
 .cards {
   background-color: #fb9f89ff;
